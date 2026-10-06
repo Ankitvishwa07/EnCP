@@ -1,0 +1,5 @@
+q,mode,days_with_peaks,mean_peak_red_pct,std_peak_red_pct,kwh_moved_per_day,eur_saved_per_day,max_hour_drop_kwh,overall_peak_red_pct
+0.8,forecast,110,19.005,31.899,0.291,0.023,0.04,13.266
+0.8,oracle,110,82.274,23.255,0.876,0.067,0.284,63.092
+0.9,forecast,110,1.075,4.738,0.022,0.001,0.001,1.328
+0.9,oracle,110,67.933,26.635,0.284,0.021,0.13,58.123

@@ -1,0 +1,16 @@
+Remove-Item -Recurse -Force .git
+@"
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+data/
+models/
+results/*.parquet
+results/*.npz
+results/*.pkl
+"@ | Set-Content -Encoding ascii .gitignore
+Get-Content .gitignore
